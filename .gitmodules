@@ -1,0 +1,6 @@
+[submodule "ecwid_shiprocket_app"]
+	path = ecwid_shiprocket_app
+	url = git@github.com:KBA07/ecwid-shiprocket-app.git
+[submodule "fynd_imdb"]
+	path = fynd_imdb
+	url = git@github.com:KBA07/fynd-imdb.git
