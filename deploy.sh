@@ -15,6 +15,6 @@ else
 fi
 
 echo "stopping the existing container: $CONTAINER_NAME"
-docker stop $CONTAINER_NAME
+docker rm -f $CONTAINER_NAME
 echo "starting a new container: $CONTAINER_NAME"
 docker run --name $CONTAINER_NAME -p 80:8081 -p 443:8081 -d $IMAGE_NAME
