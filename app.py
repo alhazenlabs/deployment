@@ -15,4 +15,4 @@ if __name__ == "__main__":
     # Here the app.app is the flask app which can be used to add flask app
     register_flask_blueprint(app.app, False)
 
-    app.run(port=8081, debug=True)
+    app.run(port=8081)
